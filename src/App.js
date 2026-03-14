@@ -401,7 +401,7 @@ function Dashboard({ suppliers, breaches, obligations, onNav }) {
                     <td style={S.td}>
                       <span style={S.badge(b.severity)}>{b.severity.toUpperCase()}</span>
                     </td>
-                    <td style={S.td} style={{ ...S.td, color: "#e8453a", fontSize: 12 }}>
+                    <td style={{ ...S.td, color: "#e8453a", fontSize: 12 }}>
                       {fmt(parseFloat(b.estimated_exposure_usd))}
                     </td>
                     <td style={S.td}>
