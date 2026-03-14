@@ -40,7 +40,7 @@ const fmt = (n) =>
 // ── STYLES ───────────────────────────────────────────────────────
 const S = {
   app: {
-    fontFamily: "'DM Mono', 'Courier New', monospace",
+    fontFamily: "'DM Mono', 'Courier New', monospace", fontWeight: 400,
     background: "#080808",
     color: "#e8e4df",
     minHeight: "100vh",
